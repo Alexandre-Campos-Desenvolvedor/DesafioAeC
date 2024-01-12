@@ -1,6 +1,6 @@
 # DesafioAeC
 
-Foi utizado Console.Application com DDD mais Pattern Repository utiliando Dapper para persistencia de dados.
+Foi utilizado Console.Application com DDD mais Pattern Repository utiliando Dapper para persistencia de dados.
 Camada App -> Inicialização do projeto
 Camada Services -> Serviços onde o selenium está sendo utilizado para fazer a busca no alura.
 Camada Data --> Configuração e inicialização das conexões com o banco de dados
