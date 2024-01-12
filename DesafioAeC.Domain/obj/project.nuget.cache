@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1PDYNMyeI2jXujXKS3dJI5jxjRxOxcA8evUOTMizAJRmvuPeCW3hkVPHW1zzSmJzzjZDVfbbPh3WazsJc+iLAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\Source\\Repos\\Alexandre-Campos-Desenvolvedor\\DesafioAeC\\DesafioAeC.Domain\\DesafioAeC.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}

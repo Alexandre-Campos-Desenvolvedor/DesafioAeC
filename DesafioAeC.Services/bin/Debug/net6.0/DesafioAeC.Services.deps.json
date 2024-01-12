@@ -1,0 +1,134 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DesafioAeC.Services/1.0.0": {
+        "dependencies": {
+          "DesafioAeC.Domain": "1.0.0",
+          "Selenium.Support": "4.16.2",
+          "Selenium.WebDriver": "4.16.2",
+          "Selenium.WebDriver.ChromeDriver": "120.0.6099.10900"
+        },
+        "runtime": {
+          "DesafioAeC.Services.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Dapper.Contrib/2.0.78": {
+        "dependencies": {
+          "Dapper": "2.0.78"
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.Contrib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.Support/4.16.2": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.16.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.16.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {},
+      "DesafioAeC.Domain/1.0.0": {
+        "dependencies": {
+          "Dapper.Contrib": "2.0.78"
+        },
+        "runtime": {
+          "DesafioAeC.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DesafioAeC.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "path": "dapper/2.0.78",
+      "hashPath": "dapper.2.0.78.nupkg.sha512"
+    },
+    "Dapper.Contrib/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sUfDVIf8LlHNiz3MfUFodeyRiemfN1JFkPxYjCxFWlwNPg1iQ49mB+0E89TkywWs4X8fiRWOVDQgtH5FtzK5Kw==",
+      "path": "dapper.contrib/2.0.78",
+      "hashPath": "dapper.contrib.2.0.78.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.Support/4.16.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xxwbDNUFUQyD9p1qsT2mjqQPADJVXYub1Z+6lzIbqLAqzbnIovo/lBQD2te5ly7OI8HZqU0vNDbi9p2Mxtz3NA==",
+      "path": "selenium.support/4.16.2",
+      "hashPath": "selenium.support.4.16.2.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.16.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5BI/v+LpPma+o5ijzy1jDqnbYBBu99UQYPhvZkSBnXY6PoDKLP//aMiX8XODNJHHcRwGXeaxKR61ISO6ejXExA==",
+      "path": "selenium.webdriver/4.16.2",
+      "hashPath": "selenium.webdriver.4.16.2.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wCOew6C9ABCRK59DdzdJyoQKmVQEUrVQEvoDQdhnLWpW1OkFKG5pd9EK6B3j2vcqdNTBNM6++tAOhBMFezHm3w==",
+      "path": "selenium.webdriver.chromedriver/120.0.6099.10900",
+      "hashPath": "selenium.webdriver.chromedriver.120.0.6099.10900.nupkg.sha512"
+    },
+    "DesafioAeC.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
